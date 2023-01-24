@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+  }
+
+.one {
+    flex: 1 100 auto;
+}
+
+.two {
+    flex: 1 30 auto;
+}
+
+.three {
+    flex: 1 1 30px;
+}
+
+.background-container {
+    background-color: blanchedalmond;
+    border: solid 5px;
+    border-color: black;
+    margin: 15px;
+}
