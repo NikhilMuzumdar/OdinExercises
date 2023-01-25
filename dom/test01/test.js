@@ -34,12 +34,22 @@ function manipulate() {
 }
 
 
+// Method 1
+
+
 // Method 2
-const btn = document.querySelector('#btn');
-btn.onclick = () => { alert('Hello World')}
+const btn = document.querySelector('#bt2');
+btn2.onmouseover = () => { alert('Hello World')}
 
 // Method 3
 const btn3 = document.querySelector('#btn3');
-btn3.addEventListener('click', () => {
-  alert("Hello World");
+btn3.addEventListener('mouseover', () => {
+  console.log("Hello World");
+});
+
+// Another button
+const btn4 = document.querySelector('#btn4');
+btn4.addEventListener('click', function (e) {
+  console.log(e.target);
+  console.log("Worked")
 });
