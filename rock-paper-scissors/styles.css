@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(239, 224, 224);
+    background-color: rgb(105, 103, 103);
 }
 
 
@@ -58,7 +58,7 @@
 }
 
 .display-result p {
-    font-size: 24px;
+    font-size: 16px;
     background-color: khaki;
     padding: 10px;
     border-radius: 10px;
@@ -80,4 +80,14 @@
 
 .score p {
     background-color: beige;
+}
+
+.score p span {
+  background-color: beige;
+  font-size: 24px;
+  color: blue;
+}
+
+.score-board p {
+  background-color: yellow;
 }
