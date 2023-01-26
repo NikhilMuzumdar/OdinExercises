@@ -51,7 +51,7 @@ buttons.forEach((button) => {
         console.log(player_score, computer_score);
 
         display = document.querySelector('.display-result p')
-        var message = `In this round, you selected ${playerSelection}. Computer selected ${computerSelection}. ${result}`
+        var message = `You selected ${playerSelection}. Computer selected ${computerSelection}. ${result}`
         display.textContent = message;
 
 
@@ -61,14 +61,14 @@ buttons.forEach((button) => {
 
         // if either of the player hits 5, declare winner for the round
         if (computer_score === 5) {
-            scoreBoard.textContent = `Computer wins this round`
+            scoreBoard.textContent = `Previous round winner: Computer!`
             player_score = 0;
             computer_score = 0;
             display.textContent = "What's your guess??";
             
         }
         if (player_score === 5) {
-            scoreBoard.textContent = `Player wins this round`
+            scoreBoard.textContent = `Previous round winner: Player!`
             player_score = 0;
             computer_score = 0;
             display.textContent = "What's your guess??";
